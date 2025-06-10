@@ -1,20 +1,12 @@
-# Health Tracker To-do App 
+# React + Vite
 
-A responsive, health-focused to-do app built with **React**. It allows users to add, track, and filter their tasks, with persistent data storage using the browser's **localStorage**, ensuring your tasks remain saved even after page reloads or revisiting the app.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-##  Features
+Currently, two official plugins are available:
 
-- Add new tasks with unique IDs (via **UUID**)
-- Mark tasks as completed
-- Filter to view only completed tasks
-- Persistent data using **localStorage**
-- Styled with **Tailwind CSS**
-- Fully responsive design for all devices
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- React
-- Tailwind CSS
-- UUID
-- LocalStorage API
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
