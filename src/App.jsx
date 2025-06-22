@@ -55,7 +55,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-green-200 min-h-[80vh] font-bold my-5 mx-auto p-5 rounded-xl max-w-3xl">
+      <div className="bg-purple-200 min-h-[80vh] font-bold my-5 mx-auto p-5 rounded-xl max-w-3xl">
         <h1 className="flex justify-center py-5">
           Health-tracker: Tracks yourself here
         </h1>
@@ -66,11 +66,11 @@ function App() {
             type="text"
             value={task}
             onChange={(e) => setTask(e.target.value)}
-            className="border border-gray-300 rounded px-3 py-2 text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border border-black-300 rounded px-3 py-2 text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             onClick={handleAdd}
-            className="px-5 py-2 mx-8 rounded-xl bg-green-500 text-white"
+            className="px-5 py-2 mx-8 rounded-xl bg-purple-500 border-pink-400 text-white"
           >
             Add
           </button>

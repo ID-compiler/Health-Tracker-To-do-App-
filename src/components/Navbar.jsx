@@ -1,7 +1,7 @@
 import React from "react";
 const Navbar = () => {
   return (
-    <div className="bg-green-700 text-white px-7 py-2">
+    <div className="bg-puple-700 text-white px-7 py-2">
       <ul className="flex flex-row justify-between items-center">
         <li className="font-bold text-lg">Health-tracker</li>
         <li>
